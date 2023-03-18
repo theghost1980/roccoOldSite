@@ -1,0 +1,112 @@
+:root {
+    --colorText: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(196, 82, 61);
+}
+.div60 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 101;
+}
+.div40 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('./media-images/susan-yin-2JIvboGLeho-unsplash.jpg'); */
+    background-image: url('../media-images/susan-yin-2JIvboGLeho-unsplash-copy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    z-index: 100;
+}
+.textContainer {
+    background-color: rgba(255, 99, 71, 0.925);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.divLeft40 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.divLeft60 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.textReading {
+    color: var(--colorText);
+    line-height: 1.3em;
+    /* font-size: 0.95em; */
+    font-size: 1.13em;
+    text-shadow: 1px 1px 5px rgb(53, 20, 15);
+    font-weight: lighter;
+    font-family: 'Noto-Serif-Medium';
+}
+.textAttention {
+    color: var(--colorText);
+    font-size: 1.10em;
+    font-weight: lighter;
+    font-family: 'Noto-Serif-Medium';
+    font-style: italic;
+    padding: 10px;
+}
+
+/* media support */
+@media (max-width: 900px){
+    .container {
+        height: 750px;
+        padding-bottom: 150px;
+    }
+    .div60 {
+        justify-content: flex-start;
+    }
+    .textContainer {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+        border-radius: 0px;
+    }
+    /* .div60 {
+        width: 100%;
+        z-index: 1000;
+    }
+    .div40 {
+        position: absolute;
+        width: 100vh;
+        opacity: 0.6;
+    } */
+    .divLeft40 {
+        width: 100%;
+    }
+    .divLeft60 {
+        width: 100%;
+    }
+    .textReading {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.88em;
+    }
+    .textAttention {
+        font-size: 0.88em;
+    }
+}
+/* end media */
