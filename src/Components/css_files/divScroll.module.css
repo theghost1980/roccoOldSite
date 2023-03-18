@@ -1,0 +1,15 @@
+.divScroll {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    width: 40px;
+    height: 40px;
+    font-family: 'Noto-Serif-Black';
+}
+.imgMini {
+    height: 21px;
+}

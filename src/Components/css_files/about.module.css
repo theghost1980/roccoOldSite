@@ -1,0 +1,197 @@
+html {
+    --scrollbarBG: rgb(253, 253, 253);
+    --thumbBG: tomato;
+}
+  /* body::-webkit-scrollbar {
+    width: 11px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  } */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 850px;
+    /* height: auto; */
+    background-color: tomato;
+}
+.divContainerDiv45 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+}
+.div55 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.div45 {
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    /* align-items: flex-end; */
+    width: 100%;
+    height: 100%;
+    /* height: 1200px; */
+    /* margin: 0 auto; */
+    /* background: url('./media-images/main-cover2.jpg'); */
+    /* background-image:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0), tomato),
+      url('./media-images/main-cover2.jpg'); */
+      background-image:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0), tomato),
+      url('../media-images/main-cover2 copy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.divTextLogos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.logosContainer {
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+}
+/* images */
+.imgContainer {
+    height: 60%;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+.imgContainer:hover {
+  opacity: 1;
+}
+.imgSmall {
+    border-radius: 5px;
+    height: 90%;
+}
+.imgSmall2 {
+  border-radius: 5px;
+  background-color: white;
+  max-height: 90%;
+}
+/* end images */
+.textLeftCarousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.carouselContainer {
+  margin-right: 30px;
+}
+/* texts */
+.textContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(236, 73, 40, 0.699);
+  padding-bottom: 20px;
+  box-shadow: 1px 2px 10px 1px black;
+  border-radius: 5px;
+}
+.readingText {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    line-height: 1.4em;
+    /* font-size: 0.95em; */
+    font-size: 1.13em;
+    text-shadow: 1px 3px 5px rgb(53, 20, 15);
+    font-weight: normal;
+    font-family: 'Noto-Serif-Medium';
+}
+/* end texts */
+.timeLineContainer {
+    -moz-box-shadow:    inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow:         inset 0 0 15px #000000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 98%;
+    overflow-y: scroll;
+}
+/* scrollbar */
+.timeLineContainer::-webkit-scrollbar {
+    width: 11px;
+  }
+  .timeLineContainer::-webkit-scrollbar-track {
+    background: var(--thumbBG);
+  }
+  .timeLineContainer::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbarBG) ;
+    border-radius: 6px;
+    border: 4px solid var(--thumbBG);
+  }
+/* end scrollbar */
+
+/* Media support */
+@media only screen and (max-width: 930px) {
+  .logosContainer {
+    margin-top: 10px;
+  } 
+}
+@media only screen and (max-width: 860px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 150px;
+    /* overflow-x: hidden !important; */
+  }
+  /* .div55 {
+    width: 100%;
+    z-index: 1000;
+  }
+  .div45 {
+    position: absolute;
+    width: 100%;
+    opacity: 0.7;
+  } */
+  .textLeftCarousel {
+    flex-direction: column;
+  }
+  .carouselContainer {
+    margin-right: 0px;
+  }
+  .divTextLogos {
+    display: none;
+  }
+  .imgsContainer {
+    display: none;
+  }
+  .readingText {
+    font-size: 0.8em;
+    text-align: justify;
+    margin-right: 20px;
+  }
+}
+/* end media support */
+

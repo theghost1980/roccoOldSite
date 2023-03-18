@@ -1,0 +1,17 @@
+.swiper-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    /* border: 1px solid rgba(146, 4, 4, 0.548); */
+    box-shadow: 1px 1px 10px 5px rgba(160, 12, 12, 0.562);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    /* margin: 0 auto; */
+}
+.swiper-wrapper {
+    padding-inline-start: 0px;
+}
+

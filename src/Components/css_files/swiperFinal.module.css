@@ -1,0 +1,12 @@
+.swiperContainer {
+    width: 500px;
+    height: 300px;
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+}
+.swiperThumbsContainer {
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+}
