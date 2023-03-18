@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/roccoOldSite/static/css/main.9c604dea.css",
-    "main.js": "/roccoOldSite/static/js/main.44cbda56.js",
+    "main.css": "/roccoOldSite/static/css/main.ea8717ce.css",
+    "main.js": "/roccoOldSite/static/js/main.ac68ff84.js",
     "static/js/787.8499c8f2.chunk.js": "/roccoOldSite/static/js/787.8499c8f2.chunk.js",
+    "static/media/DOSSIER-Rocco-Mangieri.pdf": "/roccoOldSite/static/media/DOSSIER-Rocco-Mangieri.f0985527e647fef2203b.pdf",
+    "static/media/CV-English-Rocco-Mangieri.pdf": "/roccoOldSite/static/media/CV-English-Rocco-Mangieri.decf947c69ab673172f1.pdf",
     "static/media/main-cover-copy.png": "/roccoOldSite/static/media/main-cover-copy.d91377fc5baa8215183e.png",
+    "static/media/susan-yin-2JIvboGLeho-unsplash-copy.jpg": "/roccoOldSite/static/media/susan-yin-2JIvboGLeho-unsplash-copy.17c614c6e3556bde5b47.jpg",
+    "static/media/main-3-copy.jpg": "/roccoOldSite/static/media/main-3-copy.8f73abe8d66d64064928.jpg",
+    "static/media/img_not_available.png": "/roccoOldSite/static/media/img_not_available.347d22849a57ee4b0118.png",
     "static/media/main-cover2 copy.jpg": "/roccoOldSite/static/media/main-cover2 copy.cf576841611d171be8b6.jpg",
     "static/media/main-cover3-copy.jpg": "/roccoOldSite/static/media/main-cover3-copy.e15e44b22103f3260d01.jpg",
     "static/media/IASS-AIS-logo-copy.jpg": "/roccoOldSite/static/media/IASS-AIS-logo-copy.1540ea9b32bbe80f2a94.jpg",
     "static/media/FELS-logo-copy.png": "/roccoOldSite/static/media/FELS-logo-copy.5efad775b749259d3d05.png",
     "static/media/logo.svg": "/roccoOldSite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/roccoOldSite/index.html",
-    "main.9c604dea.css.map": "/roccoOldSite/static/css/main.9c604dea.css.map",
-    "main.44cbda56.js.map": "/roccoOldSite/static/js/main.44cbda56.js.map",
+    "main.ea8717ce.css.map": "/roccoOldSite/static/css/main.ea8717ce.css.map",
+    "main.ac68ff84.js.map": "/roccoOldSite/static/js/main.ac68ff84.js.map",
     "787.8499c8f2.chunk.js.map": "/roccoOldSite/static/js/787.8499c8f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c604dea.css",
-    "static/js/main.44cbda56.js"
+    "static/css/main.ea8717ce.css",
+    "static/js/main.ac68ff84.js"
   ]
 }
